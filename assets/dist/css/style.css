@@ -1,0 +1,201 @@
+body {
+   
+}
+/* nav section */
+
+.btn-teal {
+    color: #fff;
+    background-color: #00ba94;
+    border-color: #00ba94;
+}
+.btn-teal:hover {
+    background-color:  #00ac69;
+    border-color:  #00ac69;
+    color: #fff;
+}
+.rounded-pill {
+    border-radius: 50rem!important;
+}
+.nav-active {
+    background-color:rgb(0, 0, 0)!important;
+}
+.letter-spacing {
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+.font-sizing {
+    font-weight: 500;
+}
+.button-spacing {
+    font-size: .7rem;
+    padding: 0.75rem 2rem;
+    font-weight: 700;
+    letter-spacing: .15em;
+    text-transform: uppercase;
+
+    /* nav section ended */
+
+    /* banner section started */
+}
+.bg-gradient-primary-to-secondary {
+    background-color: #0061f2;
+    background-image: linear-gradient(135deg,#0061f2,rgba(105,0,199,.8));
+    padding: 150px;
+    height: 100vh;
+    width: 100%;
+    border-radius: 0 20%;
+}
+.line-arrange {
+    margin-bottom: 0.5rem!important;
+    font-weight: 500!important;
+    font-size: 2.5rem!important;
+    line-height: 1.2!important;
+    padding-top:50px;
+}
+.letter-coding {
+    color: hsla(0,0%,100%,.5)!important;
+    font-size: 1.15rem;
+    font-size:20px;
+    font-weight:350;
+    /* text-align-last:left; */
+}
+.only-hover {
+    text-decoration: none;
+    }
+.only-hover:hover {
+    text-decoration: underline;
+}
+/* used some nav section classess to the banner section */
+/*banner section end*/
+
+/* second section */
+
+.alignment-section {
+    text-align: center;
+    margin-top: 100px;
+}
+.for-padd {
+    background-color: lightblue;
+    font-size: 75%;
+    font-weight: 400;
+    line-height: 1;
+}
+.fnt-size {
+    font-size: 1.4rem
+}
+.txt-align {
+    padding-left: 22%;
+    padding-right: 22%;
+    font-size: 1.1rem;
+    font-weight: 400;
+    margin-bottom: 100px;
+}
+
+/* third section starting */
+
+.third-section {
+    margin-bottom: 200px;
+    display: flex;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+.image-resolution {
+    flex: 1 1 300px;
+}
+.third-section img{
+    width: 100%;
+    height: 200px;
+    border-radius: 0.5rem!important;
+    object-fit: cover;
+    transition: 0.1s ease-out;
+    overflow: hidden;
+}
+.third-section img:hover {
+    transform: scale(1.1) ;
+}
+.third-section h6{
+    text-align: center;
+    padding-bottom: 10px;
+}
+/* ended third section */
+
+/* fourth section started */
+.fourth-section {
+    position: relative;
+    background-color: #eff3f9!important;
+    padding-top: 30px;
+}
+.txt-alignment {
+    padding-left: 22%;
+    padding-right: 22%;
+    font-size: 1.3rem;
+    font-weight: 330;
+   
+}
+.tbl-specification {
+    display: flex;
+    /* justify-content: space-around; */
+    gap: 30px;
+    flex-wrap: wrap;
+}
+.table-resolution {
+    flex: 1 1 200px;
+    /* align-content: flex-start; */
+}
+.table-resolution table {
+    
+   width:300px;
+}
+.tbl-specification tr {
+    background-color: white;
+}
+.blog-page {
+    position: absolute;
+    top: 610px;
+    margin-left: 380px;
+}
+.all-table{
+    margin-top: 100px;
+}
+/* started sixth section */
+.sixth-section {
+    background-color: #eff3f9!important;
+    padding-bottom: 100px;
+    padding-top:20px;
+}
+.heading-size {
+    font-size: 1.4rem;
+    padding-top: 30px;
+}
+.sixth-section h1 {
+    text-align: center;
+    font-weight: 700;
+    color: #c5ccd6!important;
+}
+.letter-rem {
+    font-size: 1.1rem;
+    /* font-weight: 500; */
+    line-height: 1.2;
+    text-align: center;
+}
+.para-alignment{
+    text-align: center;
+    /* margin-bottom: 0.5rem!important; */
+    font-weight: 400;
+    font-size: 1.2rem;
+    line-height: 1.5;
+    color: #687281;;
+}
+.sixth-section .btn {
+    font-size: 1rem;
+    padding: 0.8rem;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+   margin-top: 50px;
+    /* text-align: center; */
+}
+/* .sixth-section button {
+   margin-left: 40%;
+   margin-top: 50px;
+} */
